@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_my_mall">
+
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.ashish.mymall.ui.Siparişlerim.MyOrdersFragment"
+        android:label="Siparişlerim"
+        tools:layout="@layout/fragment_my_orders" />
+
+    <fragment
+        android:id="@+id/nav_my_rewards"
+        android:name="com.ashish.mymall.ui.Kuponlarım.MyRewardsFragment"
+        android:label="Kuponlarım"
+        tools:layout="@layout/fragment_my_rewards" />
+
+    <fragment
+        android:id="@+id/nav_my_cart"
+        android:name="com.ashish.mymall.ui.Sepetim.MyCartFragment"
+        android:label="Sepetim"
+        tools:layout="@layout/fragment_my_cart" />
+
+    <fragment
+        android:id="@+id/nav_my_wishlist"
+        android:name="com.ashish.mymall.ui.İstek_Listem.MyWishlistFragment"
+        android:label="İstek Listem"
+        tools:layout="@layout/fragment_my_wishlist" />
+
+    <fragment
+        android:id="@+id/nav_my_account"
+        android:name="com.ashish.mymall.ui.Hesabım.MyAccountFragment"
+        android:label="Hesabım"
+        tools:layout="@layout/fragment_my_account" />
+
+    <fragment
+        android:id="@+id/nav_my_mall"
+        android:name="com.ashish.mymall.ui.Web_Market.MyMallFragment"
+        android:label="Web Market"
+        tools:layout="@layout/fragment_my_mall" />
+</navigation>

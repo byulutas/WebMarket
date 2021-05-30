@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_mall"
+            android:icon="@mipmap/mymall"
+            android:title="Web Market" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@mipmap/shoppingbag"
+            android:title="Siparişlerim" />
+        <item
+            android:id="@+id/nav_my_rewards"
+            android:icon="@mipmap/reward"
+            android:title="Kuponlarım" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@mipmap/cart"
+            android:title="Sepetim" />
+        <item
+            android:id="@+id/nav_my_wishlist"
+            android:icon="@mipmap/heart"
+            android:title="İstek Listem" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@mipmap/usermale"
+            android:title="Hesabım" />
+    </group>
+
+    <item
+        android:id="@+id/nav_sign_out"
+        android:icon="@mipmap/logoutt"
+        android:title="Oturumu Kapat" />
+
+
+</menu>
